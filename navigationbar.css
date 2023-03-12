@@ -1,37 +1,34 @@
 body
 {
     font-family:'Courier New', Courier, monospace; 
+
 }
 
+.navigation-bar button
+{
+   
+    background-color: #ffff;
+    border-style: none;
+    font-size: 18px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
 .navigation-bar
 {
     text-align: center;
-    margin-top: 7em;
-
+   
 }
 
-.navigation-bar li
+.navigation-bar form
 {
-    list-style-type: none;
-    display:inline-block;
-}
-hr
-{
-    margin-right:1em;
-}
+    display: inline-block;
+    margin: 0.2em;
 
-.navigation-bar a
-{
-    text-decoration: none;
-    padding: 2em;
-    color: black;
-    font-size: 1.5em;
 }
 
 h1
 {
-   font-size: 2em;
-   letter-spacing: 1em;
-   display: inline-block;
-   text-align: center;
+    margin-top: 4em;
+    font-size: 40px;
 }
+
