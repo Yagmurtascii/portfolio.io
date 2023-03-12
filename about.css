@@ -1,0 +1,25 @@
+p
+{
+    text-align: center;
+    font-size: 1.3em;
+    margin: 3em;
+    overflow-wrap: break-word;
+
+}
+div
+{
+    display: inline;
+    text-align: center;
+}
+
+.games-content{
+    display: inline;
+    margin:2em 14em 0em 14em;
+}
+img
+{
+
+    display: block;
+    text-align: center;
+    margin: auto;
+}

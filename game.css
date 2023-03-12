@@ -1,0 +1,48 @@
+
+
+body
+{
+    font-family:'Courier New', Courier, monospace;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+.games-content li
+{
+    list-style:none;
+    font-size: 20px;
+}
+
+div
+{
+    margin-top: 13em;
+}
+
+
+
+
+.games-content{
+    word-wrap:break-word;
+    margin:4em;
+    display: block;
+    text-align: center;
+}
+
+.games-content h1
+{
+    overflow-wrap: break-word;
+}
+
+a
+{
+    color: rgb(255, 123, 0);
+    text-decoration: none;
+}
+
+
+ 

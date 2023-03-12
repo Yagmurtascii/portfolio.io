@@ -1,0 +1,22 @@
+.contact-info li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 10em 7em 0em 7em;
+}
+.contact-info
+{
+  
+    display: block;
+    text-align: center;
+
+}
+
+.contact-info li:hover
+{
+
+    border-style: none;
+    border-radius: 20px;
+    padding: 1em;
+    color: brown;
+}

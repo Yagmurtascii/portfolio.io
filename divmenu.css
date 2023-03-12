@@ -1,0 +1,46 @@
+@keyframes example {
+    0% {border-color: rgb(228, 203, 64);
+        color: rgb(210, 106, 224);}
+    25%  {border-color: rgb(224, 106, 106);
+        color:rgb(94, 179, 228) ;}
+    50%  {border-color: rgb(156, 201, 127); 
+        color:rgb(156, 201, 127)}
+    75%  {border-color: rgb(94, 179, 228); 
+        color:rgb(210, 106, 224)}
+    100%  {border-color: rgb(210, 106, 224);
+        color:rgb(228, 203, 64) ;}
+  }
+
+
+#game-models-button
+{
+    text-align: center;
+    margin-top: 8em;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2em;
+    font-weight:bold;
+}
+#game-models-button li
+{
+    list-style: none;
+    margin: 2em;
+}
+#game-models-button a
+{
+    text-decoration: none;
+    padding:0.2em 2em 0.2em 2em;
+    color: black;
+   
+}
+
+#game-models-button a:hover
+{
+    animation-name: example;
+    animation-duration: 1s;
+    border-width: 0.2em;
+    border-radius: 3em;
+    border-style: solid;
+    border-color: rgb(224, 106, 106);
+    color:  rgb(94, 179, 228)
+
+}

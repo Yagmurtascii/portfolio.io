@@ -1,0 +1,107 @@
+@keyframes example {
+    0% {border-color: rgb(228, 203, 64);}
+    25%  {border-color: rgb(224, 106, 106);}
+    50%  {border-color: rgb(156, 201, 127); }
+    75%  {border-color: rgb(94, 179, 228); }
+    100%  {border-color: rgb(210, 106, 224);}
+}
+
+.models button:hover
+{
+    animation-name: example;
+    animation-duration: 1s;
+    border-style: solid;
+    animation-iteration-count: infinite;
+    border-width:0.4em ;
+}
+
+.models button{
+    width: 20em;
+    height: 25em;
+    margin: 2em;
+    border-radius: 2em;
+    background-size: cover;
+    background-position: center;
+}
+body
+{    
+    font-family:'Courier New', Courier, monospace;
+}
+ form
+{
+  display: inline;
+  text-align: center;
+}
+.models
+{
+
+
+    text-align: center;
+    margin: auto;
+}
+.models p
+{
+    text-transform: uppercase;
+    margin-top: 16em;
+    font-size: 1.4em;
+    color: azure;
+
+}
+
+#mushroom{
+    background-image: url(mushroom1.PNG);
+
+}
+
+#mushroom:hover{
+    background-image: url(mushroom2.PNG);
+}
+
+#book{
+    background-image: url(book2.PNG);
+
+}
+#book:hover
+{
+    background-image: url(book1.PNG);
+}
+
+#sword{
+    background-image: url(sword1.PNG);
+}
+
+#sword:hover{
+    background-image: url(sword2.PNG);
+}
+
+
+#rabbit{
+    background-image: url(rabbit1.PNG);
+}
+
+#rabbit:hover{
+    background-image: url(rabbit2.PNG);
+}
+
+
+#staves{
+    background-image: url(staves1.PNG);
+}
+
+#staves:hover{
+    background-image: url(staves2.PNG);
+}
+#lulu{
+    background-image: url(lulu.PNG);
+}
+
+#lulu:hover{
+    background-image: url(lulu2.PNG);
+}
+#carrot{
+    background-image: url(carrot.PNG);
+}
+
+#bottle{
+    background-image: url(bottle.PNG);
+}
